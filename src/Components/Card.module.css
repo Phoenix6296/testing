@@ -5,15 +5,14 @@
 }
 
 .card__container {
+    gap: 1rem;
     padding-right: 2rem;
     justify-content: space-between;
     display: flex;
-    margin: 1rem;
     border: 1px solid lightgray;
     overflow: none;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px lightgray;
-    font-size: 1.5rem;
     color: gray;
 }
 
@@ -67,4 +66,8 @@ img {
     width: 100%;
     flex: 0.4;
     height: 100%;
+}
+
+p {
+    margin: 0 !important;
 }

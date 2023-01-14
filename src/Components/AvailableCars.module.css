@@ -1,0 +1,15 @@
+.icons {
+    font-size: 2rem;
+    width: 10rem;
+    flex: 0.2;
+    gap: 1rem;
+}
+
+.icons>* {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 10rem;
+    gap: 2rem !important;
+}
