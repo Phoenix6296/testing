@@ -1,8 +1,9 @@
-import './App.css'
+import styles from './App.module.css'
+import AvailableCars from './Components/AvailableCars'
 const App = () => {
   return (
-    <div>
-
+    <div className='app'>
+      <AvailableCars />
     </div>
   )
 }
