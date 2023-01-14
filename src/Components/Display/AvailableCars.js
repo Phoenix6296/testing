@@ -1,9 +1,9 @@
 import styles from './AvailableCars.module.css'
 import Card from './Card'
-import Car1 from '../Assets/car1.webp'
-import Car2 from '../Assets/car2.jpeg'
-import Car3 from '../Assets/car3.jpeg'
-import Car4 from '../Assets/car4.webp'
+import Car1 from '../../Assets/car1.webp'
+import Car2 from '../../Assets/car2.jpeg'
+import Car3 from '../../Assets/car3.jpeg'
+import Car4 from '../../Assets/car4.webp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const data = [
@@ -18,6 +18,7 @@ const AvailableCars = () => {
             <div className='container'>
                 <h1 className='my-4'>Cars for Rent</h1>
                 <hr />
+                <div style={{ marginBottom: "50px" }}></div>
                 {data.map((item) => { return (<Card key={item.key} carImage={item.carImage} carName={item.carName} color={item.color} seats={item.seats} price={item.price} />) })}
                 <footer className={`styles.footer my-3`}>
                     <h2>Rent Vroom</h2>

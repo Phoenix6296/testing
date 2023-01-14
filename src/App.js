@@ -1,5 +1,5 @@
-import styles from './App.module.css'
-import AvailableCars from './Components/AvailableCars'
+// import styles from './App.module.css'
+import AvailableCars from './Components/Display/AvailableCars'
 const App = () => {
   return (
     <div className='app'>
